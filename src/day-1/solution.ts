@@ -19,6 +19,6 @@ export function dayOneSolution() {
 
     // count total calories, if hit zero push to totalCaloriesArray and do reset
     caloriesArray.map(cal => cal ? totalCalories += cal : pushToArrayAndUpdateTotalCalories(totalCalories));
-    console.log(Math.max(...totalCaloriesArray)); // 69206
+    console.log("dayOneSolution", Math.max(...totalCaloriesArray)); // 69206
 }
 
